@@ -8,7 +8,7 @@ import consultation from "@/assets/consultation.jpg";
 
 const AppointmentForm = () => {
   return (
-    <section className="relative py-20" id="book-appointment">
+    <section className="relative py-20 min-h-[320px] md:min-h-[520px]" id="book-appointment">
       {/* full-bleed background image with overlay */}
       <div
         className="absolute inset-0 bg-center bg-cover opacity-40"
@@ -101,10 +101,10 @@ const AppointmentForm = () => {
                       </div>
                     </div>
 
-                    {/* submit bar */}
-                    <div className="bg-[#C8D8FF] text-[#1F2B6C] text-center py-3 font-semibold">
+                    {/* submit button */}
+                    <Button type="submit" className="w-full bg-[#C8D8FF] text-[#1F2B6C] hover:bg-[#B8C8FF] font-semibold py-3 rounded-none">
                       SUBMIT
-                    </div>
+                    </Button>
                   </form>
                 </CardContent>
               </Card>

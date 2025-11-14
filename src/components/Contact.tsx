@@ -13,7 +13,7 @@ const Contact = () => {
       icon: MapPin,
       title: "Location",
       content: ["0123 Some place", "9876 Some country"],
-      bgColor: "bg-primary text-primary-foreground",
+      bgColor: "bg-accent/10 text-accent",
     },
     {
       icon: Mail,
@@ -39,14 +39,14 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {contactInfo.map((info, index) => (
-            <Card key={index} className={`${info.bgColor} border-0 hover:shadow-xl transition-shadow`}>
+            <Card key={index} className={`${info.bgColor} border-0 hover:shadow-xl hover:bg-[#1F2B6C] hover:text-white transition-all cursor-pointer group`}>
               <CardContent className="p-6 text-center">
                 <div className={`${index === 1 ? 'bg-white/20' : 'bg-accent/20'} p-4 rounded-full w-fit mx-auto mb-4`}>
                   <info.icon className="h-8 w-8" />
                 </div>
-                <h3 className="font-bold mb-3 uppercase tracking-wider text-sm">{info.title}</h3>
+                <h3 className="font-bold mb-3 uppercase tracking-wider text-sm group-hover:text-white transition-colors">{info.title}</h3>
                 {info.content.map((line, i) => (
-                  <p key={i} className={`text-sm ${index === 1 ? 'text-primary-foreground/90' : 'text-foreground/80'}`}>
+                  <p key={i} className={`text-sm transition-colors ${index === 0 ? 'text-[#192243cc] group-hover:text-white' : index === 1 ? 'text-[#192243cc] group-hover:text-white' : 'text-foreground/80 group-hover:text-white'}`}>
                     {line}
                   </p>
                 ))}

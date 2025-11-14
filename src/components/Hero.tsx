@@ -3,7 +3,7 @@ import heroDoctor from "@/assets/image.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-background via-background to-secondary pt-20 pb-8 overflow-hidden min-h-[640px] md:min-h-[840px]" id="home">
+    <section className="relative bg-gradient-to-br from-background via-background to-secondary pt-8 md:pt-16 pb-6 overflow-hidden min-h-[280px] md:min-h-[520px]" id="home">
       {/* background image with fixed size */}
       <div
         className="absolute top-0 left-1/2 transform -translate-x-1/2 z-0"
@@ -17,22 +17,19 @@ const Hero = () => {
         <div className="absolute inset-0 bg-accent/10" />
       </div>
 
-      <div className="container mx-auto px-4 relative">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 z-20 relative max-w-xl">
+      <div className="container mx-auto px-0 relative">
+        <div className="grid grid-cols-3 md:grid-cols-2 gap-8 items-center" style={{ minHeight: 'min(35vw, 520px)' }}>
+          <div className="space-y-4 z-20 relative max-w-xl col-span-2 md:col-span-1 mx-auto md:mx-0 px-3 md:px-0 translate-x-2 md:translate-x-0">
             <p className="text-accent text-sm font-semibold tracking-wider uppercase">Caring for life</p>
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight text-foreground">
+            <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-tight text-foreground">
               Leading the Way in Medical Excellence
             </h1>
-            <Button size="lg" className="mt-4 z-30">
+            <Button size="lg" className="bg-[#BFD2F8] text-black shadow-lg px-5 py-5 rounded-md">
               Our Services
             </Button>
           </div>
-          {/* empty column to preserve spacing on small screens; content is visually covered by the full image on the right */}
-          <div className="hidden md:block" />
+          <div className="col-span-1" />
         </div>
-
-        {/* (background image moved outside container to fill section) */}
       </div>
     </section>
   );

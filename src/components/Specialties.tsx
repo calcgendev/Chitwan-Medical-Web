@@ -25,7 +25,7 @@ const Specialties = () => {
           {specialties.map((specialty, index) => (
             <Card
               key={index}
-              className="group hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer border border-gray-200 hover:bg-[#2b1b6a] hover:text-white"
+              className="group hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer border border-gray-200 hover:bg-[#1F2B6C] hover:text-white"
             >
               <CardContent className="p-6 text-center">
                 <div className="bg-accent/10 p-4 rounded-full w-fit mx-auto mb-4 group-hover:bg-white/30">

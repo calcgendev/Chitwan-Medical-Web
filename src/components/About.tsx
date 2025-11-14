@@ -16,10 +16,11 @@ const About = () => {
         </div>
 
         <div className="mt-12">
-          <img 
-            src={medicalTeam} 
-            alt="Medical team professionals" 
-            className="rounded-2xl shadow-2xl w-full h-auto object-cover max-h-96"
+          <div
+            className="rounded-2xl shadow-2xl w-full bg-cover bg-center h-64 md:h-96 lg:h-[480px]"
+            style={{ backgroundImage: `url(${medicalTeam})` }}
+            role="img"
+            aria-label="Medical team professionals"
           />
         </div>
       </div>

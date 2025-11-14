@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Clock, MapPin, Phone, Search, Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,7 +38,9 @@ const Header = () => {
       <div className="bg-primary text-primary-foreground py-4 relative">
         <div className="container mx-auto px-4 flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold tracking-wider">CEH</div>
+          <a href="/" className="flex items-center">
+            <img src={logo} alt="CEH logo" className="h-8 md:h-10" />
+          </a>
 
           {/* Right icons */}
           <div className="flex items-center gap-4 md:hidden">

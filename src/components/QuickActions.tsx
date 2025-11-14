@@ -31,7 +31,7 @@ const QuickActions = () => {
           {actions.map((action, index) => (
             <Card
               key={index}
-              className={`${action.bgColor} ${action.textColor ?? 'text-white'} p-6 cursor-pointer group hover:shadow-xl hover:bg-[#1F2B6C] hover:text-white transition-colors border-0`}
+              className={`${action.bgColor} ${action.textColor ?? 'text-white'} p-6 cursor-pointer group hover:shadow-xl transition-colors border-0`}
             >
               <div className="flex items-center gap-4">
                 <div className="bg-white/20 p-3 rounded-lg group-hover:bg-white/30">
