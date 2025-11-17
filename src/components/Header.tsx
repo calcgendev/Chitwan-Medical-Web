@@ -59,16 +59,19 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#home" className="hover:text-accent transition-colors">Home</a>
-            <a href="#about" className="hover:text-accent transition-colors">About us</a>
-            <a href="#services" className="hover:text-accent transition-colors">Services</a>
-            <a href="#doctors" className="hover:text-accent transition-colors">Doctors</a>
-            <a href="#news" className="hover:text-accent transition-colors">News</a>
-            <a href="#contact" className="hover:text-accent transition-colors">Contact</a>
+            <a href="/" className="hover:text-accent transition-colors">Home</a>
+            <a href="/about" className="hover:text-accent transition-colors">About us</a>
+            <a href="/#services" className="hover:text-accent transition-colors">Services</a>
+            <a href="/#doctors" className="hover:text-accent transition-colors">Doctors</a>
+            <a href="/#news" className="hover:text-accent transition-colors">News</a>
+            <a href="/#contact" className="hover:text-accent transition-colors">Contact</a>
           </nav>
 
           {/* Desktop Appointment */}
           <div className="hidden md:flex items-center gap-3">
+            <Button variant="ghost" size="icon" className="hover:bg-primary/80">
+              <Search className="h-5 w-5" />
+            </Button>
             <Button
               size="lg"
               className="flex items-center gap-2 bg-[#BFD2F8] text-[#1b1b1b] rounded-full px-6 py-2 hover:bg-[#AFC9F0] focus:outline-none"
@@ -82,12 +85,12 @@ const Header = () => {
         {isMenuOpen && (
           <div className="absolute left-0 right-0 top-full bg-[#cdd9ff] text-[#1b1b1b] shadow-lg flex flex-col items-center py-6 space-y-4 animate-fadeIn">
             <nav className="flex flex-col items-center gap-3 text-base font-medium">
-              <a href="#home" className="font-semibold">Home</a>
-              <a href="#about">About us</a>
-              <a href="#services">Services</a>
-              <a href="#doctors">Doctors</a>
-              <a href="#news">News</a>
-              <a href="#contact">Contact</a>
+              <a href="/" className="font-semibold">Home</a>
+              <a href="/about">About us</a>
+              <a href="/#services">Services</a>
+              <a href="/#doctors">Doctors</a>
+              <a href="/#news">News</a>
+              <a href="/#contact">Contact</a>
             </nav>
 
             <Button className="mt-2 bg-[#2b1b6a] text-white rounded-full px-10 py-2 hover:bg-[#24125e]">
