@@ -6,7 +6,6 @@ import Services from "@/components/Services";
 import Specialties from "@/components/Specialties";
 import AppointmentForm from "@/components/AppointmentForm";
 import Doctors from "@/components/Doctors";
-import News from "@/components/News";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -21,7 +20,6 @@ const Index = () => {
       <Specialties />
       <AppointmentForm />
       <Doctors />
-      <News />
       <Contact />
       <Footer />
     </div>

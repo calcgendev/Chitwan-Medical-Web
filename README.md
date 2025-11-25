@@ -6,7 +6,7 @@ A modern, responsive medical website built with React, TypeScript, and Tailwind 
 
 - **Responsive Design** - Works seamlessly on mobile, tablet, and desktop
 - **Modern UI** - Clean and professional interface using Tailwind CSS
-- **Multi-page Navigation** - Home, About Us, Services, Doctors, News, and Contact
+- **Multi-page Navigation** - Home, About Us, Services, Doctors, and Contact
 - **Appointment System** - Easy appointment booking form
 - **Auto-rotating Testimonials** - Patient testimonials with automatic carousel
 - **Component Library** - Built with shadcn/ui components
@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`
+The app will be available at `http://localhost:port`
 
 ## Build
 
@@ -43,11 +43,10 @@ npm run build
 
 ## Pages
 
-- **Home** (`/`) - Landing page with hero, services, specialties, news, and contact
+- **Home** (`/`) - Landing page with hero, services, specialties, and contact
 - **About Us** (`/about`) - Detailed about page with testimonials and doctors
 - **Services** - Medical services offered
 - **Doctors** - Meet our team of professionals
-- **News** - Latest medical news and updates
 - **Contact** - Get in touch with us
 
 ## Components
@@ -58,7 +57,6 @@ npm run build
 - Appointment form
 - Auto-rotating testimonial carousel
 - Doctor profiles
-- News section
 - Contact section
 - Footer
 

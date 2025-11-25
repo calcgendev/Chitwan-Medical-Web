@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import medicalTeam from "@/assets/medical-team.jpg";
 import Doctors from "@/components/Doctors";
-import News from "@/components/News";
 import Contact from "@/components/Contact";
 import { Card, CardContent } from "@/components/ui/card";
 import { useState, useEffect } from "react";
@@ -173,9 +172,6 @@ const AboutPage = () => {
 
       {/* Doctors Section */}
       <Doctors />
-
-      {/* News Section */}
-      <News />
 
       {/* Contact Section */}
       <Contact />

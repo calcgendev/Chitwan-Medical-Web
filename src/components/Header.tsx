@@ -63,7 +63,6 @@ const Header = () => {
             <a href="/about" className="hover:text-accent transition-colors">About us</a>
             <a href="/#services" className="hover:text-accent transition-colors">Services</a>
             <a href="/#doctors" className="hover:text-accent transition-colors">Doctors</a>
-            <a href="/#news" className="hover:text-accent transition-colors">News</a>
             <a href="/#contact" className="hover:text-accent transition-colors">Contact</a>
           </nav>
 
@@ -89,7 +88,6 @@ const Header = () => {
               <a href="/about">About us</a>
               <a href="/#services">Services</a>
               <a href="/#doctors">Doctors</a>
-              <a href="/#news">News</a>
               <a href="/#contact">Contact</a>
             </nav>
 
