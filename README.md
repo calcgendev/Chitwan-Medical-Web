@@ -67,7 +67,3 @@ The project uses Tailwind CSS with custom colors:
 - Accent: #BFD2F8
 - Dark: #192243cc
 
-
-## Contact
-
-For inquiries, please contact us through the website's contact form.
