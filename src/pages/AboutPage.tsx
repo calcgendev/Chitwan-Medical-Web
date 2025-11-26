@@ -55,7 +55,7 @@ const AboutPage = () => {
 
       {/* Hero Section with background image and breadcrumb */}
       <section
-        className="relative h-80 md:h-96 bg-cover bg-center flex items-end"
+        className="relative h-80 md:h-96 bg-cover bg-center bg-fixed flex items-end"
         style={{ backgroundImage: `url(${medicalTeam})` }}
       >
         {/* Dark overlay */}
