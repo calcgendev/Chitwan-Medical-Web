@@ -97,9 +97,11 @@ const Services = () => {
                   We provide a full range of medical services from preventive care to specialized treatment. 
                   Our team is dedicated to your health and wellbeing.
                 </p>
+                <a href="/services">
                 <Button variant="outline" className="w-full">
                   Learn More
                 </Button>
+                </a>
               </CardContent>
             </Card>
           </div>
@@ -111,9 +113,11 @@ const Services = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   Our healthcare professionals bring years of experience and compassionate care to every patient interaction.
                 </p>
+                <a href="/doctors">
                 <Button variant="outline" className="w-full">
                   Meet Our Doctors
                 </Button>
+                </a>
               </CardContent>
             </Card>
             <img 
