@@ -62,7 +62,7 @@ const Header = () => {
             <a href="/" className="hover:text-accent transition-colors">Home</a>
             <a href="/about" className="hover:text-accent transition-colors">About us</a>
             <a href="/services" className="hover:text-accent transition-colors">Services</a>
-            <a href="/#doctors" className="hover:text-accent transition-colors">Doctors</a>
+            <a href="/doctors" className="hover:text-accent transition-colors">Doctors</a>
             <a href="/#contact" className="hover:text-accent transition-colors">Contact</a>
           </nav>
 
@@ -71,12 +71,14 @@ const Header = () => {
             <Button variant="ghost" size="icon" className="hover:bg-primary/80">
               <Search className="h-5 w-5" />
             </Button>
-            <Button
-              size="lg"
-              className="flex items-center gap-2 bg-[#BFD2F8] text-[#1b1b1b] rounded-full px-6 py-2 hover:bg-[#AFC9F0] focus:outline-none"
-            >
-              Appointment
-            </Button>
+            <a href="https://www.example.com">
+              <Button
+                size="lg"
+                className="flex items-center gap-2 bg-[#BFD2F8] text-[#1b1b1b] rounded-full px-6 py-2 hover:bg-[#AFC9F0] focus:outline-none"
+              >
+                Appointment
+              </Button>
+            </a>
           </div>
         </div>
 
@@ -86,14 +88,15 @@ const Header = () => {
             <nav className="flex flex-col items-center gap-3 text-base font-medium">
               <a href="/" className="font-semibold">Home</a>
               <a href="/about">About us</a>
-              <a href="/#services">Services</a>
-              <a href="/#doctors">Doctors</a>
-              <a href="/#contact">Contact</a>
+              <a href="/services">Services</a>
+              <a href="/doctors">Doctors</a>
+              <a href="/contact">Contact</a>
             </nav>
-
+            <a href="https://www.example.com">
             <Button className="mt-2 bg-[#2b1b6a] text-white rounded-full px-10 py-2 hover:bg-[#24125e]">
               Appointment
             </Button>
+            </a>
           </div>
         )}
       </div>

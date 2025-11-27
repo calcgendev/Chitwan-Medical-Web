@@ -1,15 +1,15 @@
-import doctorsTeam from "@/assets/doctors-team.jpg";
-import medicalTeam from "@/assets/medical-team.jpg";
-import eyeHospital from "@/assets/Super-Speciality-Eye-Hospital.jpg";
 import consultation from "@/assets/consultation.jpg";
+import doctorsTeam from "@/assets/doctors-team.jpg";
 import heroDoctor from "@/assets/hero-doctor.jpg";
 import imageAsset from "@/assets/image.jpg";
+import medicalTeam from "@/assets/medical-team.jpg";
+import eyeHospital from "@/assets/Super-Speciality-Eye-Hospital.jpg";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Eye, EyeOff, Glasses, AlertCircle, Users, Wrench } from "lucide-react";
+import { AlertCircle, Eye, EyeOff, Glasses, Users, Wrench } from "lucide-react";
 
 const ServicesPage = () => {
 

@@ -24,9 +24,11 @@ const Hero = () => {
             <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-tight text-foreground">
               Leading the Way in Medical Excellence
             </h1>
-            <Button size="lg" className="bg-[#BFD2F8] text-black shadow-lg px-5 py-5 rounded-md">
+            <a href="/services">
+            <Button size="lg" className="bg-[#BFD2F8] text-black shadow-lg px-4 py-5 rounded-md">
               Our Services
             </Button>
+            </a>
           </div>
           <div className="col-span-1" />
         </div>
