@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© 2025 Hospital's Name All Rights Reserved by CEH</p>
+          <p>© 2025 Chitwan Eye Hospital All Rights Reserved by CEH</p>
         </div>
       </div>
     </footer>
