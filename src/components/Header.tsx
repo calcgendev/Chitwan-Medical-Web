@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Clock, MapPin, Phone, Search, Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.jpeg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,8 +15,8 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <Phone className="h-4 w-4 text-primary" />
             <span className="font-medium">Emergency:</span>
-            <a href="tel:237681812255" className="text-blue-600 hover:underline">
-              (237) 681-812-255
+            <a href="tel:+97756493780" className="text-blue-600 hover:underline">
+              +977 56 493780
             </a>
           </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <MapPin className="h-4 w-4 text-primary" />
             <span className="font-medium">Location:</span>
-            <span>0123 Some Place</span>
+            <span>Bharatpur-10, Chitwan, Nepal</span>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Header = () => {
         <div className="container mx-auto px-4 flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center">
-            <img src={logo} alt="CEH logo" className="h-8 md:h-10" />
+            <img src={logo} alt="CEH logo" className="h-10 md:h-16" />
           </a>
 
           {/* Right icons */}
@@ -63,7 +63,7 @@ const Header = () => {
             <a href="/about" className="hover:text-accent transition-colors">About us</a>
             <a href="/services" className="hover:text-accent transition-colors">Services</a>
             <a href="/doctors" className="hover:text-accent transition-colors">Doctors</a>
-            <a href="/#contact" className="hover:text-accent transition-colors">Contact</a>
+            <a href="/contact" className="hover:text-accent transition-colors">Contact</a>
           </nav>
 
           {/* Desktop Appointment */}
@@ -71,7 +71,7 @@ const Header = () => {
             <Button variant="ghost" size="icon" className="hover:bg-primary/80">
               <Search className="h-5 w-5" />
             </Button>
-            <a href="https://www.example.com">
+            <a href="/appointment">
               <Button
                 size="lg"
                 className="flex items-center gap-2 bg-[#BFD2F8] text-[#1b1b1b] rounded-full px-6 py-2 hover:bg-[#AFC9F0] focus:outline-none"
@@ -92,7 +92,7 @@ const Header = () => {
               <a href="/doctors">Doctors</a>
               <a href="/contact">Contact</a>
             </nav>
-            <a href="https://www.example.com">
+            <a href="/appointment">
             <Button className="mt-2 bg-[#2b1b6a] text-white rounded-full px-10 py-2 hover:bg-[#24125e]">
               Appointment
             </Button>

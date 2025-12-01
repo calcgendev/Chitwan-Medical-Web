@@ -64,7 +64,7 @@ const AppointmentForm = () => {
                           </div>
                           <div>
                             <Label htmlFor="phone" className="text-white/80">Phone</Label>
-                            <Input id="phone" type="tel" placeholder="+1 234 567 890" className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none" />
+                            <Input id="phone" type="tel" placeholder="+977 234 567 890" className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none" />
                           </div>
                         </div>
 

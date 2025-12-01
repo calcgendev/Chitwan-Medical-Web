@@ -78,6 +78,7 @@ const Doctors = () => {
                     </Button>
                     <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-white/20 h-8 w-8">
                       <Facebook className="h-4 w-4" />
+                      <a href="https://www.facebook.com/chitwaneye.hospital/" target="_blank" rel="noopener noreferrer"></a>
                     </Button>
                     <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-white/20 h-8 w-8">
                       <Twitter className="h-4 w-4" />

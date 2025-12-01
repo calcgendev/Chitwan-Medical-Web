@@ -16,9 +16,10 @@ const Footer = () => {
               <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-white/20 h-9 w-9">
                 <Linkedin className="h-4 w-4" />
               </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-white/20 h-9 w-9">
-                <Facebook className="h-4 w-4" />
-              </Button>
+               <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-white/20 h-8 w-8">
+                      <Facebook className="h-4 w-4" />
+                      <a href="https://www.facebook.com/chitwaneye.hospital/" target="_blank" rel="noopener noreferrer"></a>
+                    </Button>
               <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-white/20 h-9 w-9">
                 <Instagram className="h-4 w-4" />
               </Button>
@@ -38,10 +39,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 uppercase tracking-wider text-sm">Contact Us</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>Call: (+237) 681-812-255</li>
-              <li>Email: contact@Chitwan.com</li>
-              <li>Address: 0123 Some Place</li>
-              <li>9876 Some Country</li>
+              <li>Call: (+977) 56490799, (+977) 56493780</li>
+              <li>Email: chitwaneyehospital@gmail.com</li>
+              <li>Address: Bharatpur-10, Chitwan, Nepal</li>
+              
             </ul>
           </div>
 
@@ -59,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© 2025 Hospital's Name All Rights Reserved by PNTEC-LTD</p>
+          <p>© 2025 Hospital's Name All Rights Reserved by CEH</p>
         </div>
       </div>
     </footer>

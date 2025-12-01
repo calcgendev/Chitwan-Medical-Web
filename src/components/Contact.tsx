@@ -6,19 +6,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Emergency",
-      content: ["(+237) 681-812-255", "(+237) 666-331-894"],
+      content: ["(+977) 56490799", "(+977) 56493780"],
       bgColor: "bg-accent/10 text-accent",
     },
     {
       icon: MapPin,
       title: "Location",
-      content: ["0123 Some place", "9876 Some country"],
+      content: ["Bharatpur-10, Chitwan, Nepal", "Nepal"],
       bgColor: "bg-accent/10 text-accent",
     },
     {
       icon: Mail,
       title: "Email",
-      content: ["contact@Chitwan.com", "appointments@Chitwan.com"],
+      content: ["chitwaneyehospital@gmail.com"],
       bgColor: "bg-accent/10 text-accent",
     },
     {
