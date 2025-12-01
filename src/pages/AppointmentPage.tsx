@@ -93,7 +93,11 @@ const AppointmentPage = () => {
                         </div>
                         <div>
                           <Label htmlFor="phone" className="text-white/80 text-sm">Phone</Label>
+<<<<<<< HEAD
                           <Input id="phone" placeholder="+977 (555) 000-0000" className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none mt-2" />
+=======
+                          <Input id="phone" placeholder="+1 (555) 000-0000" className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none mt-2" />
+>>>>>>> 07992ea47a5b3a4db2b0bcbf576d0a0c99d1a0c5
                         </div>
                       </div>
 
@@ -192,7 +196,11 @@ const AppointmentPage = () => {
                     </div>
                     <div className="text-center">
                       <h3 className="text-lg font-bold">Emergency</h3>
+<<<<<<< HEAD
                       <p className="text-white/80">(+977) 56490799</p>
+=======
+                      <p className="text-white/80">(237) 681-812-255</p>
+>>>>>>> 07992ea47a5b3a4db2b0bcbf576d0a0c99d1a0c5
                     </div>
                   </div>
                 </CardContent>

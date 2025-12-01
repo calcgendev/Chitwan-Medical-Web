@@ -23,7 +23,11 @@ const QuickActions = () => {
       title: "Call for Emergency",
       description: "24/7 emergency services",
       bgColor: "bg-accent",
+<<<<<<< HEAD
       link: "tel:+97756493780",
+=======
+      link: "tel:(237)681-812-255",
+>>>>>>> 07992ea47a5b3a4db2b0bcbf576d0a0c99d1a0c5
     },
   ];
 
