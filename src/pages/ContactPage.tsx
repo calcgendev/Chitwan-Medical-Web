@@ -110,13 +110,8 @@ const ContactPage = () => {
                       <Phone className="h-6 sm:h-8 w-6 sm:w-8 group-hover:text-white transition-colors" />
                     </div>
                     <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">EMERGENCY</h3>
-<<<<<<< HEAD
                     <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">(+977) 56490799</p>
                     <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">(+977) 56493780</p>
-=======
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">(237) 681-812-255</p>
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">(237) 666-331-894</p>
->>>>>>> 07992ea47a5b3a4db2b0bcbf576d0a0c99d1a0c5
                   </CardContent>
                 </Card>
 
@@ -127,13 +122,8 @@ const ContactPage = () => {
                       <MapPin className="h-6 sm:h-8 w-6 sm:w-8 group-hover:text-white transition-colors" />
                     </div>
                     <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">LOCATION</h3>
-<<<<<<< HEAD
                     <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">Bharatpur-10, Chitwan, Nepal</p>
                     <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">Nepal</p>
-=======
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">0123 Some place</p>
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">9876 Some country</p>
->>>>>>> 07992ea47a5b3a4db2b0bcbf576d0a0c99d1a0c5
                   </CardContent>
                 </Card>
 
@@ -144,12 +134,7 @@ const ContactPage = () => {
                       <Mail className="h-6 sm:h-8 w-6 sm:w-8 group-hover:text-white transition-colors" />
                     </div>
                     <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">EMAIL</h3>
-<<<<<<< HEAD
                     <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">chitwaneyehospital@gmail.com</p>
-=======
-                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">fldneeesee@gmail.com</p>
-                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">myehin.udios@gmail.com</p>
->>>>>>> 07992ea47a5b3a4db2b0bcbf576d0a0c99d1a0c5
                   </CardContent>
                 </Card>
 
