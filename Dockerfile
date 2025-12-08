@@ -10,6 +10,9 @@ WORKDIR /usr/src/app
 COPY package*.json /usr/src/app/
 RUN npm install --legacy-peer-deps
 
+#install serve to run the build
+RUN npm install -g serve   #
+
 # Copying source files
 COPY . /usr/src/app
 
@@ -19,5 +22,8 @@ EXPOSE 3000
 
 # Running the app
 # CMD "npm" "run" "start"
-CMD ["npm", "run", "start"]
+# CMD ["npm", "run", "start"]
+
+# Serve production build
+CMD ["serve", "-s", "dist", "-l", "3000"] 
 
