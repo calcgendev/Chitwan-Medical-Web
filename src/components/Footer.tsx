@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import logo from "@/assets/logo.jpeg";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
@@ -8,7 +9,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">CEH</h3>
+            <a href="/" className="flex items-center">
+            <img src={logo} alt="CEH logo" className="h-10 md:h-16" />
+          </a>
             <p className="text-sm text-primary-foreground/80 mb-4">
               Leading the way in medical excellence, caring for life.
             </p>
@@ -35,7 +38,7 @@ const Footer = () => {
               <li><a href="about" className="hover:text-accent transition-colors">About Us</a></li>
             </ul>
           </div>
-
+        
           <div>
             <h4 className="font-semibold mb-4 uppercase tracking-wider text-sm">Contact Us</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
@@ -55,12 +58,12 @@ const Footer = () => {
                 className="bg-white/10 border-white/20 text-primary-foreground placeholder:text-white/60"
               />
               <Button variant="accent">→</Button>
-            </div>
+            </div> 
           </div>
         </div>
 
         <div className="border-t border-white/20 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© 2025 Chitwan Eye Hospital All Rights Reserved by CEH</p>
+          <p>© {new Date().getFullYear()} All rights reserved by Chitwan Eye Hospital</p>
         </div>
       </div>
     </footer>

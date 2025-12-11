@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Activity, Heart, Stethoscope, TestTube } from "lucide-react";
+import { Activity, Droplet, Eye, EyeOff, Heart, Stethoscope, TestTube } from "lucide-react";
 import consultation from "@/assets/consultation.jpg";
 import doctorsTeam from "@/assets/doctors-team.jpg";
 
@@ -12,18 +12,18 @@ const Services = () => {
       points: ["General health screening", "Blood pressure", "Diabetic checkup", "Weight management"],
     },
     {
-      icon: Heart,
-      title: "Cardiogram",
-      points: ["Heart monitoring", "ECG testing", "Cardiac consultation", "Emergency care"],
+      icon: Eye,
+      title: "Ophthalmology",
+      points: ["Eye exams", "Vision correction", "Eye disease management", "Emergency eye care"],
     },
     {
-      icon: TestTube,
-      title: "DNA Testing",
+      icon: EyeOff,
+      title: "Glaucoma",
       points: ["Genetic screening", "Ancestry testing", "Health predisposition", "Personalized care"],
     },
     {
-      icon: Activity,
-      title: "Blood Bank",
+      icon: Droplet,
+      title: "Cornea",
       points: ["Blood donation", "Blood storage", "Transfusion services", "Emergency supply"],
     },
   ];
@@ -88,10 +88,10 @@ const Services = () => {
             <img 
               src={consultation} 
               alt="Doctor consulting with patient" 
-              className="rounded-2xl shadow-lg w-full h-64 object-cover"
+              className="rounded-2xl shadow-lg w-full h-70 object-cover"
             />
             <Card className="bg-card">
-              <CardContent className="p-6">
+              <CardContent className="p-16">
                 <h3 className="text-lg font-semibold mb-3">Comprehensive Care</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   We provide a full range of medical services from preventive care to specialized treatment. 
@@ -110,7 +110,7 @@ const Services = () => {
             <Card className="bg-card">
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold mb-3">Expert Medical Team</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-muted-foreground text-sm mb-20">
                   Our healthcare professionals bring years of experience and compassionate care to every patient interaction.
                 </p>
                 <a href="/doctors">
@@ -123,7 +123,7 @@ const Services = () => {
             <img 
               src={doctorsTeam} 
               alt="Medical team smiling" 
-              className="rounded-2xl shadow-lg w-full h-64 object-cover"
+              className="rounded-2xl shadow-lg w-full h-80 object-cover"
             />
           </div>
         </div>
