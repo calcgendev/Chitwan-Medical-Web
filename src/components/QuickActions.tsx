@@ -28,7 +28,7 @@ const QuickActions = () => {
   ];
 
   return (
-    <section className="py-8 -mt-16 relative z-10">
+    <section className="py-8 -mt-40 md:-mt-16 relative z-10">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-6">
           {actions.map((action, index) => (

@@ -1,14 +1,14 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Brain, Bone, Eye, Baby, Activity, Syringe, Pill } from "lucide-react";
+import { Heart, Brain, Bone, Eye, Baby, Activity, Syringe, Pill, EyeOff, Droplet, Target, Scissors } from "lucide-react";
 
 const Specialties = () => {
   const specialties = [
-    { icon: Heart, name: "Cardiology" },
-    { icon: Brain, name: "Neurology" },
-    { icon: Bone, name: "Orthopedics" },
+    { icon: EyeOff, name: "Glaucoma" },
+    { icon: Droplet, name: "Cornea" },
+    { icon: Target, name: "Retina" },
     { icon: Eye, name: "Ophthalmology" },
     { icon: Baby, name: "Pediatrics" },
-    { icon: Activity, name: "Pulmonology" },
+    { icon: Scissors, name: "Oculoplasty" },
     { icon: Syringe, name: "Laboratory" },
     { icon: Pill, name: "Pharmacy" },
   ];
