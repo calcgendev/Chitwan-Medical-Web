@@ -125,19 +125,16 @@ const AboutPage = () => {
               {/* Description */}
               <div className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed">
-                  About Chitwan Eye Hospital Chitwan Eye Hospital is a trusted
-                  eye hospital in Nepal, providing advanced eye services from
-                  Bharatpur, Chitwan. Our experienced eye specialists in Nepal
-                  offer comprehensive care, including eye exams, cataract
-                  surgery, retina care, and emergency treatment, so patients do
-                  not need to travel far for quality care.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque placerat scelerisque tortor ornare ornare. Convallis
+                  felis vitae tortor augue. Velit nascetur proin massa in.
+                  Consequat faucibus porttitor enim et.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  As one of the best eye hospital in Nepal–level providers
-                  outside Kathmandu, we focus on safe, affordable treatment and
-                  a patient‑first approach. Thousands of patients from Chitwan
-                  and neighbouring districts rely on us each year to protect and
-                  restore their vision.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque placerat scelerisque tortor ornare ornare. Convallis
+                  felis vitae tortor augue. Velit nascetur proin massa in.
+                  Consequat faucibus porttitor enim et.
                 </p>
               </div>
             </div>

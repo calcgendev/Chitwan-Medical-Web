@@ -8,7 +8,7 @@ const Services = () => {
   const services = [
     {
       icon: Stethoscope,
-      title: "Free Checkup",
+      title: "Eye Exams",
       points: [
         "General health screening",
         "Blood pressure",
@@ -18,7 +18,7 @@ const Services = () => {
     },
     {
       icon: Heart,
-      title: "Cardiogram",
+      title: "Cataract Surgery",
       points: [
         "Heart monitoring",
         "ECG testing",
@@ -28,7 +28,7 @@ const Services = () => {
     },
     {
       icon: TestTube,
-      title: "DNA Testing",
+      title: "Retina Care",
       points: [
         "Genetic screening",
         "Ancestry testing",
@@ -38,7 +38,7 @@ const Services = () => {
     },
     {
       icon: Activity,
-      title: "Blood Bank",
+      title: "Emergency Treatment",
       points: [
         "Blood donation",
         "Blood storage",
@@ -78,9 +78,7 @@ const Services = () => {
                   <li className="flex items-start gap-2">
                     <span className="text-accent">✓</span> All our best
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-accent">✓</span> Believe in Us
-                  </li>
+
                   <li className="flex items-start gap-2">
                     <span className="text-accent">✓</span> Always Caring
                   </li>
