@@ -9,22 +9,42 @@ const Services = () => {
     {
       icon: Stethoscope,
       title: "Free Checkup",
-      points: ["General health screening", "Blood pressure", "Diabetic checkup", "Weight management"],
+      points: [
+        "General health screening",
+        "Blood pressure",
+        "Diabetic checkup",
+        "Weight management",
+      ],
     },
     {
       icon: Heart,
       title: "Cardiogram",
-      points: ["Heart monitoring", "ECG testing", "Cardiac consultation", "Emergency care"],
+      points: [
+        "Heart monitoring",
+        "ECG testing",
+        "Cardiac consultation",
+        "Emergency care",
+      ],
     },
     {
       icon: TestTube,
       title: "DNA Testing",
-      points: ["Genetic screening", "Ancestry testing", "Health predisposition", "Personalized care"],
+      points: [
+        "Genetic screening",
+        "Ancestry testing",
+        "Health predisposition",
+        "Personalized care",
+      ],
     },
     {
       icon: Activity,
       title: "Blood Bank",
-      points: ["Blood donation", "Blood storage", "Transfusion services", "Emergency supply"],
+      points: [
+        "Blood donation",
+        "Blood storage",
+        "Transfusion services",
+        "Emergency supply",
+      ],
     },
   ];
 
@@ -32,7 +52,9 @@ const Services = () => {
     <section className="py-20 bg-secondary/30" id="services">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <p className="text-accent text-sm font-semibold tracking-wider uppercase mb-2">Care you can believe in</p>
+          <p className="text-accent text-sm font-semibold tracking-wider uppercase mb-2">
+            Care you can believe in
+          </p>
           <h2 className="text-4xl font-bold text-foreground">Our Services</h2>
         </div>
 
@@ -43,7 +65,9 @@ const Services = () => {
                 <div className="bg-white/20 p-3 rounded-lg w-fit mb-4">
                   <Activity className="h-8 w-8" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">A passion for putting patients first</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  A passion for putting patients first
+                </h3>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
                     <span className="text-accent">✓</span> A Passion for Healing
@@ -85,22 +109,25 @@ const Services = () => {
           </div>
 
           <div className="space-y-6">
-            <img 
-              src={consultation} 
-              alt="Doctor consulting with patient" 
+            <img
+              src={consultation}
+              alt="Doctor consulting with patient"
               className="rounded-2xl shadow-lg w-full h-64 object-cover"
             />
             <Card className="bg-card">
               <CardContent className="p-6">
-                <h3 className="text-lg font-semibold mb-3">Comprehensive Care</h3>
+                <h3 className="text-lg font-semibold mb-3">
+                  Comprehensive Care
+                </h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  We provide a full range of medical services from preventive care to specialized treatment. 
-                  Our team is dedicated to your health and wellbeing.
+                  We provide a full range of medical services from preventive
+                  care to specialized treatment. Our team is dedicated to your
+                  health and wellbeing.
                 </p>
                 <a href="/services">
-                <Button variant="outline" className="w-full">
-                  Learn More
-                </Button>
+                  <Button variant="outline" className="w-full">
+                    Learn More
+                  </Button>
                 </a>
               </CardContent>
             </Card>
@@ -109,20 +136,23 @@ const Services = () => {
           <div className="space-y-6">
             <Card className="bg-card">
               <CardContent className="p-6">
-                <h3 className="text-lg font-semibold mb-3">Expert Medical Team</h3>
+                <h3 className="text-lg font-semibold mb-3">
+                  Expert Medical Team
+                </h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Our healthcare professionals bring years of experience and compassionate care to every patient interaction.
+                  Our healthcare professionals bring years of experience and
+                  compassionate care to every patient interaction.
                 </p>
                 <a href="/doctors">
-                <Button variant="outline" className="w-full">
-                  Meet Our Doctors
-                </Button>
+                  <Button variant="outline" className="w-full">
+                    Meet Our Doctors
+                  </Button>
                 </a>
               </CardContent>
             </Card>
-            <img 
-              src={doctorsTeam} 
-              alt="Medical team smiling" 
+            <img
+              src={doctorsTeam}
+              alt="Medical team smiling"
               className="rounded-2xl shadow-lg w-full h-64 object-cover"
             />
           </div>
