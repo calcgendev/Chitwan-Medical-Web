@@ -1,49 +1,49 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Activity, Heart, Stethoscope, TestTube } from "lucide-react";
+import { Eye, ScanEye, ShieldPlus, Siren, Glasses } from "lucide-react";
 import consultation from "@/assets/consultation.jpg";
 import doctorsTeam from "@/assets/doctors-team.jpg";
 
 const Services = () => {
   const services = [
     {
-      icon: Stethoscope,
-      title: "Eye Exams",
+      icon: Eye,
+      title: "Comprehensive Eye Exams",
       points: [
-        "General health screening",
-        "Blood pressure",
-        "Diabetic checkup",
-        "Weight management",
+        "Vision assessment",
+        "Eye pressure test",
+        "Refraction test",
+        "Early disease detection",
       ],
     },
     {
-      icon: Heart,
+      icon: ScanEye,
       title: "Cataract Surgery",
       points: [
-        "Heart monitoring",
-        "ECG testing",
-        "Cardiac consultation",
-        "Emergency care",
+        "Phaco surgery",
+        "Lens implantation",
+        "Pre & post-op care",
+        "Advanced technology",
       ],
     },
     {
-      icon: TestTube,
-      title: "Retina Care",
+      icon: ShieldPlus,
+      title: "Retina & Glaucoma Care",
       points: [
-        "Genetic screening",
-        "Ancestry testing",
-        "Health predisposition",
-        "Personalized care",
+        "Diabetic retinopathy",
+        "Glaucoma screening",
+        "Laser treatment",
+        "Long-term monitoring",
       ],
     },
     {
-      icon: Activity,
-      title: "Emergency Treatment",
+      icon: Siren,
+      title: "Eye Emergency Care",
       points: [
-        "Blood donation",
-        "Blood storage",
-        "Transfusion services",
-        "Emergency supply",
+        "Eye injuries",
+        "Sudden vision loss",
+        "Infections & redness",
+        "24/7 emergency support",
       ],
     },
   ];
@@ -55,7 +55,9 @@ const Services = () => {
           <p className="text-accent text-sm font-semibold tracking-wider uppercase mb-2">
             Care you can believe in
           </p>
-          <h2 className="text-4xl font-bold text-foreground">Our Services</h2>
+          <h2 className="text-4xl font-bold text-foreground">
+            Our Eye Care Services
+          </h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -63,20 +65,21 @@ const Services = () => {
             <Card className="bg-primary text-primary-foreground border-0">
               <CardContent className="p-6">
                 <div className="bg-white/20 p-3 rounded-lg w-fit mb-4">
-                  <Activity className="h-8 w-8" />
+                  <Glasses className="h-8 w-8" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">
-                  A passion for putting patients first
+                  Dedicated to Protecting Your Vision
                 </h3>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
-                    <span className="text-accent">✓</span> A Passion for Healing
+                    <span className="text-accent">✓</span> Advanced Eye Care
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-accent">✓</span> 5-Star Care
+                    <span className="text-accent">✓</span> Experienced
+                    Specialists
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-accent">✓</span> All our best
+                    <span className="text-accent">✓</span> Modern Technology
                   </li>
 
                   <li className="flex items-start gap-2">
@@ -84,7 +87,7 @@ const Services = () => {
                   </li>
                 </ul>
                 <Button variant="accent" className="mt-4 w-full">
-                  View All
+                  View All Services
                 </Button>
               </CardContent>
             </Card>
@@ -115,12 +118,12 @@ const Services = () => {
             <Card className="bg-card">
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold mb-3">
-                  Comprehensive Care
+                  Comprehensive Eye Care
                 </h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  We provide a full range of medical services from preventive
-                  care to specialized treatment. Our team is dedicated to your
-                  health and wellbeing.
+                  From routine eye checkups to advanced surgical procedures, we
+                  provide complete eye care services using the latest medical
+                  technology.
                 </p>
                 <a href="/services">
                   <Button variant="outline" className="w-full">
@@ -135,11 +138,12 @@ const Services = () => {
             <Card className="bg-card">
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold mb-3">
-                  Expert Medical Team
+                  Expert Eye Specialists
                 </h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Our healthcare professionals bring years of experience and
-                  compassionate care to every patient interaction.
+                  Our team of experienced ophthalmologists and eye care
+                  professionals are committed to delivering personalized and
+                  compassionate care.
                 </p>
                 <a href="/doctors">
                   <Button variant="outline" className="w-full">
@@ -150,7 +154,7 @@ const Services = () => {
             </Card>
             <img
               src={doctorsTeam}
-              alt="Medical team smiling"
+              alt="Eye hospital medical team"
               className="rounded-2xl shadow-lg w-full h-64 object-cover"
             />
           </div>
