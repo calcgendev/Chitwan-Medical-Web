@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Eye, ScanEye, ShieldPlus, Siren, Glasses } from "lucide-react";
-import consultation from "@/assets/consultation.jpg";
-import doctorsTeam from "@/assets/doctors-team.jpg";
+import consultation from "@/assets/consultation.jpeg";
+import doctorsTeam from "@/assets/doctors-team.jpeg";
 
 const Services = () => {
   const services = [
