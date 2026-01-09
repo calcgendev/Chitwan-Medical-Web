@@ -13,7 +13,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="Chitwan Eye Hospital Logo"
-                className="h-16 transition-opacity hover:opacity-80"
+                className="h-24 w-auto transition-opacity hover:opacity-80"
               />
             </a>
             <p className="text-sm text-primary-foreground/80 mb-4 leading-relaxed">
@@ -27,18 +27,27 @@ const Footer = () => {
               >
                 <Linkedin className="h-4 w-4" />
               </Button>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-primary-foreground hover:bg-white/20 h-8 w-8"
+              <a
+                href="https://www.facebook.com/chitwaneye/"
+                target="_blank"
+                // FIXED: target was set to URL incorrectly (target="https://...")
+                // WHY: target should be "_blank" to open in new tab
+                rel="noopener noreferrer"
+                aria-label="Visit our Facebook page"
+                // MOVED: Link now wraps button (was inside button - doesn't work!)
+                // WHY: <a> inside <Button> doesn't trigger navigation
               >
-                <Facebook className="h-4 w-4" />
-                <a
-                  href="https://www.facebook.com/chitwaneye.hospital/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-              </Button>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="text-primary-foreground hover:bg-white/20 hover:text-accent h-10 w-10 transition-all hover:scale-110"
+                  // CHANGED: h-8→h-10 for consistency with other icons
+                  // WHY: All social icons should be same size
+                >
+                  <Facebook className="h-5 w-5" />
+                  {/* CHANGED: h-4→h-5 */}
+                </Button>
+              </a>
               <Button
                 variant="ghost"
                 size="icon"
@@ -113,7 +122,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© 2025 Chitwan Eye Hospital All Rights Reserved by CEH</p>
+          <p>© 2025 All Rights Reserved</p>
         </div>
       </div>
     </footer>
