@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import medicalTeam from "@/assets/medical-team.jpg";
+import medicalTeam from "@/assets/image2.jpeg";
 import Contact from "@/components/Contact";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -27,12 +27,16 @@ const ContactPage = () => {
           <div className="container mx-auto px-4">
             {/* Breadcrumb */}
             <div className="text-white mb-4 text-sm">
-              <a href="/" className="hover:text-accent">Home</a>
+              <a href="/" className="hover:text-accent">
+                Home
+              </a>
               <span className="mx-2">/</span>
               <span>Contact</span>
             </div>
             {/* Heading */}
-            <h1 className="text-4xl md:text-6xl font-bold text-white">Our Contacts</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-white">
+              Our Contacts
+            </h1>
           </div>
         </div>
       </section>
@@ -40,7 +44,7 @@ const ContactPage = () => {
       {/* Map Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-            <div className="flex justify-center">
+          <div className="flex justify-center">
             <iframe
               width="80%"
               height="400"
@@ -55,8 +59,12 @@ const ContactPage = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-accent text-sm font-semibold tracking-wider uppercase mb-2">Get in touch</p>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">Contact</h2>
+            <p className="text-accent text-sm font-semibold tracking-wider uppercase mb-2">
+              Get in touch
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+              Contact
+            </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 items-stretch">
@@ -70,29 +78,57 @@ const ContactPage = () => {
                       <div className="p-6">
                         <div className="grid md:grid-cols-2 gap-4">
                           <div>
-                            <Label htmlFor="name" className="text-white/80">Name</Label>
-                            <Input id="name" placeholder="Your name" className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none" />
+                            <Label htmlFor="name" className="text-white/80">
+                              Name
+                            </Label>
+                            <Input
+                              id="name"
+                              placeholder="Your name"
+                              className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none"
+                            />
                           </div>
                           <div>
-                            <Label htmlFor="email" className="text-white/80">Email</Label>
-                            <Input id="email" type="email" placeholder="your@email.com" className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none" />
+                            <Label htmlFor="email" className="text-white/80">
+                              Email
+                            </Label>
+                            <Input
+                              id="email"
+                              type="email"
+                              placeholder="your@email.com"
+                              className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none"
+                            />
                           </div>
                         </div>
 
                         <div className="mt-4">
-                          <Label htmlFor="subject" className="text-white/80">Subject</Label>
-                          <Input id="subject" placeholder="Message subject" className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none" />
+                          <Label htmlFor="subject" className="text-white/80">
+                            Subject
+                          </Label>
+                          <Input
+                            id="subject"
+                            placeholder="Message subject"
+                            className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 rounded-none"
+                          />
                         </div>
 
                         <div className="mt-4">
-                          <Label htmlFor="message" className="text-white/80">Message</Label>
-                          <Textarea id="message" placeholder="Tell us your message..." className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 min-h-32 rounded-none resize-none" />
+                          <Label htmlFor="message" className="text-white/80">
+                            Message
+                          </Label>
+                          <Textarea
+                            id="message"
+                            placeholder="Tell us your message..."
+                            className="bg-transparent border-b border-white/20 text-white placeholder:text-white/60 min-h-32 rounded-none resize-none"
+                          />
                         </div>
                       </div>
                     </div>
 
                     {/* Submit button */}
-                    <Button type="submit" className="w-full bg-[#C8D8FF] text-[#1F2B6C] hover:bg-[#B8C8FF] font-semibold py-3 rounded-none">
+                    <Button
+                      type="submit"
+                      className="w-full bg-[#C8D8FF] text-[#1F2B6C] hover:bg-[#B8C8FF] font-semibold py-3 rounded-none"
+                    >
                       SUBMIT
                     </Button>
                   </form>
@@ -109,9 +145,15 @@ const ContactPage = () => {
                     <div className="bg-accent/20 p-4 rounded-full w-fit mx-auto mb-3 sm:mb-4">
                       <Phone className="h-6 sm:h-8 w-6 sm:w-8 group-hover:text-white transition-colors" />
                     </div>
-                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">EMERGENCY</h3>
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">(+977) 56490799</p>
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">(+977) 56493780</p>
+                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">
+                      EMERGENCY
+                    </h3>
+                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">
+                      (+977) 56490799
+                    </p>
+                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">
+                      (+977) 56493780
+                    </p>
                   </CardContent>
                 </Card>
 
@@ -121,9 +163,15 @@ const ContactPage = () => {
                     <div className="bg-white/20 p-4 rounded-full w-fit mx-auto mb-3 sm:mb-4">
                       <MapPin className="h-6 sm:h-8 w-6 sm:w-8 group-hover:text-white transition-colors" />
                     </div>
-                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">LOCATION</h3>
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">Bharatpur-10, Chitwan, Nepal</p>
-                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">Nepal</p>
+                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">
+                      LOCATION
+                    </h3>
+                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">
+                      Bharatpur-10, Chitwan, Nepal
+                    </p>
+                    <p className="text-xs sm:text-sm text-[#192243cc] group-hover:text-white transition-colors break-words">
+                      Nepal
+                    </p>
                   </CardContent>
                 </Card>
 
@@ -133,8 +181,12 @@ const ContactPage = () => {
                     <div className="bg-accent/20 p-4 rounded-full w-fit mx-auto mb-3 sm:mb-4">
                       <Mail className="h-6 sm:h-8 w-6 sm:w-8 group-hover:text-white transition-colors" />
                     </div>
-                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">EMAIL</h3>
-                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">chitwaneyehospital@gmail.com</p>
+                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">
+                      EMAIL
+                    </h3>
+                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">
+                      chitwaneyehospital@gmail.com
+                    </p>
                   </CardContent>
                 </Card>
 
@@ -144,9 +196,15 @@ const ContactPage = () => {
                     <div className="bg-accent/20 p-4 rounded-full w-fit mx-auto mb-3 sm:mb-4">
                       <Clock className="h-6 sm:h-8 w-6 sm:w-8 group-hover:text-white transition-colors" />
                     </div>
-                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">WORKING HOURS</h3>
-                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">Mon-Sat: 09:00-20:00</p>
-                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">Sunday: Emergency only</p>
+                    <h3 className="font-bold mb-2 sm:mb-3 uppercase tracking-wider text-xs sm:text-sm group-hover:text-white transition-colors">
+                      WORKING HOURS
+                    </h3>
+                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">
+                      Mon-Sat: 09:00-20:00
+                    </p>
+                    <p className="text-xs sm:text-sm text-foreground/80 group-hover:text-white transition-colors break-words">
+                      Sunday: Emergency only
+                    </p>
                   </CardContent>
                 </Card>
               </div>

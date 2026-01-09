@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import medicalTeam from "@/assets/medical-team.jpg";
+import medicalTeam from "@/assets/image1.jpeg";
 import Doctors from "@/components/Doctors";
 import Contact from "@/components/Contact";
 import { Card, CardContent } from "@/components/ui/card";
@@ -20,15 +20,18 @@ const AboutPage = () => {
 
   const testimonials = [
     {
-      quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque felis vitae tortor augue. Velit nascetur Consequat faucibus porttitor enim et.",
+      quote:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque felis vitae tortor augue. Velit nascetur Consequat faucibus porttitor enim et.",
       author: "John Doe",
     },
     {
-      quote: "Exceptional care and professional staff. The team is dedicated to patient satisfaction and provides outstanding medical services with compassion.",
+      quote:
+        "Exceptional care and professional staff. The team is dedicated to patient satisfaction and provides outstanding medical services with compassion.",
       author: "Jane Smith",
     },
     {
-      quote: "Amazing experience at this hospital. The doctors are highly skilled and the facilities are top-notch. Highly recommended!",
+      quote:
+        "Amazing experience at this hospital. The doctors are highly skilled and the facilities are top-notch. Highly recommended!",
       author: "Michael Johnson",
     },
   ];
@@ -38,7 +41,9 @@ const AboutPage = () => {
   };
 
   const prevTestimonial = () => {
-    setCurrentTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+    setCurrentTestimonial(
+      (prev) => (prev - 1 + testimonials.length) % testimonials.length
+    );
   };
 
   // Auto-slide testimonials every 5 seconds
@@ -66,12 +71,16 @@ const AboutPage = () => {
           <div className="container mx-auto px-4">
             {/* Breadcrumb */}
             <div className="text-white mb-4 text-sm">
-              <a href="/" className="hover:text-accent">Home</a>
+              <a href="/" className="hover:text-accent">
+                Home
+              </a>
               <span className="mx-2">/</span>
               <span>About</span>
             </div>
             {/* Heading */}
-            <h1 className="text-4xl md:text-6xl font-bold text-white">About us</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-white">
+              About us
+            </h1>
           </div>
         </div>
       </section>
@@ -93,8 +102,12 @@ const AboutPage = () => {
             {/* Right Column - Content */}
             <div className="space-y-7">
               <div>
-                <p className="text-accent text-sm font-semibold tracking-wider uppercase mb-2">Welcome to hospital name</p>
-                <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Best Care for Your Good Health</h2>
+                <p className="text-accent text-sm font-semibold tracking-wider uppercase mb-2">
+                  Welcome to hospital name
+                </p>
+                <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+                  Best Care for Your Good Health
+                </h2>
               </div>
 
               {/* Features Grid - 2 columns */}
@@ -102,7 +115,9 @@ const AboutPage = () => {
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <span className="text-accent text-xl mt-0">●</span>
-                    <span className="text-foreground font-medium">{feature.text}</span>
+                    <span className="text-foreground font-medium">
+                      {feature.text}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -110,12 +125,16 @@ const AboutPage = () => {
               {/* Description */}
               <div className="space-y-4">
                 <p className="text-foreground/80 leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. 
-                  Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque placerat scelerisque tortor ornare ornare. Convallis
+                  felis vitae tortor augue. Velit nascetur proin massa in.
+                  Consequat faucibus porttitor enim et.
                 </p>
                 <p className="text-foreground/80 leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. 
-                  Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque placerat scelerisque tortor ornare ornare. Convallis
+                  felis vitae tortor augue. Velit nascetur proin massa in.
+                  Consequat faucibus porttitor enim et.
                 </p>
               </div>
             </div>
@@ -127,9 +146,9 @@ const AboutPage = () => {
       <section
         className="relative py-24 text-white flex items-center justify-center min-h-96"
         style={{
-          backgroundImage: 'url(/src/assets/consultation.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundImage: "url(/src/assets/consultation.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         {/* Dark gradient overlay */}
@@ -152,7 +171,9 @@ const AboutPage = () => {
             </div>
 
             {/* Author name */}
-            <p className="text-lg font-semibold">{testimonials[currentTestimonial].author}</p>
+            <p className="text-lg font-semibold">
+              {testimonials[currentTestimonial].author}
+            </p>
 
             {/* Slide Indicators - Clickable dots */}
             <div className="flex gap-2 justify-center mt-8">
@@ -161,7 +182,9 @@ const AboutPage = () => {
                   key={index}
                   onClick={() => setCurrentTestimonial(index)}
                   className={`transition-all ${
-                    index === currentTestimonial ? 'bg-white w-8 h-2 rounded-full' : 'bg-white/50 w-2 h-2 rounded-full'
+                    index === currentTestimonial
+                      ? "bg-white w-8 h-2 rounded-full"
+                      : "bg-white/50 w-2 h-2 rounded-full"
                   }`}
                 />
               ))}
