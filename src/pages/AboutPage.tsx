@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import medicalTeam from "@/assets/medical-team.jpg";
+import medicalTeam from "@/assets/image1.jpeg";
 import Doctors from "@/components/Doctors";
 import Contact from "@/components/Contact";
 import { Card, CardContent } from "@/components/ui/card";
